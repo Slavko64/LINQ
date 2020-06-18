@@ -38,6 +38,12 @@ namespace MyLINQTasks
             Task3.Task();
             Task4.Task();
             Task5.Task();
+            Task6.Task();
+            Task7.Task();
+            Task8.Task();
+            Task9.Task();
+            Task10.Task();
+            Task11.Task();
             Console.ReadLine();
         }
     }
