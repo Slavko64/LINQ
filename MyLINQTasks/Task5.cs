@@ -15,7 +15,7 @@ namespace MyLINQTasks
             Console.WriteLine("Task 5");
             var C = 4;
             var A = Program.GetEnumerableString(1000);
-            Program.Put(A.Where(X => X.Length > 1 && X[0] == C.ToString()[0] && X[X.Length-1] == C.ToString()[0]).Count());
+            Program.Put(A.Count(X => X.Length > 1 && X[0] == C.ToString()[0] && X[X.Length - 1] == C.ToString()[0]));
         }
     }
 }
