@@ -12,7 +12,7 @@ namespace MyLINQTasks
         {
             Console.WriteLine("Task 20");
             var A = Program.GetEnumerableInt(100);
-            var B = A.OrderBy(x => x % 100 == 0 && x % 10 != 0);
+            var B = A.Where(x => x / 100 == 0 && x / 10 != 0 || x == 10).OrderBy(x => x).ToList();
 
         }
     }
