@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace MyLINQTasks
 {
-    class Task22
+    class Task24
     {
-//        Дано целое число K(> 0) и строковая последовательность A.Строки последовательности содержат только
-//цифры и заглавные буквы латинского алфавита.Извлечь из A
-//все строки длины K, оканчивающиеся цифрой, отсортировав
-//их в лексикографическом порядке по возрастанию.
+        //        Дано целое число K(> 0) и строковая последовательность A.Из элементов A, предшествующих элементу с
+        //порядковым номером K, извлечь те строки, которые имеют
+        //нечетную длину и начинаются с заглавной латинской буквы,
+        //изменив порядок следования извлеченных строк на обратный.
         static public string[] GetEnumerableString(int n)
         {
             char[] Alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".ToCharArray();
@@ -32,10 +32,10 @@ namespace MyLINQTasks
         }
         static public void Task()
         {
-            Console.WriteLine("Task 22");
-            int K = 4;
+            Console.WriteLine("Task 24");
+            int K = 20;
             var A = GetEnumerableString(100);
-            var B = A.Where(x => x.Length == K && char.IsDigit(x.Last()) == true ).OrderBy(x => x).ToList();
+            var B = A.Take(K).Where(X => X.Length % 2 != 0 && char.IsUpper(X.First()) == true).Reverse().ToArray();
 
         }
     }

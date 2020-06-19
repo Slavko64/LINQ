@@ -8,6 +8,7 @@ namespace MyLINQTasks
 {
     class Task21
     {
+        //Дана строковая последовательность.Строки последовательности содержат только заглавные буквы латинского алфавита.Отсортировать последовательность по возрастанию длин строк, а строки одинаковой длины — в лексикографическом порядке по убыванию.
         static public string[] GetEnumerableString(int n)
         {
             char[] Alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".ToCharArray();
