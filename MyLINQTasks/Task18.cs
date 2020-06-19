@@ -8,6 +8,7 @@ namespace MyLINQTasks
 {
     class Task18
     {
+        //Дана целочисленная последовательность.Извлечь из нее все четные отрицательные числа, поменяв порядок извлеченных чисел на обратный.
         static public void Task()
         {
             Console.WriteLine("Task 18");

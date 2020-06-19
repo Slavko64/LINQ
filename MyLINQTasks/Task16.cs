@@ -8,6 +8,7 @@ namespace MyLINQTasks
 {
     class Task16
     {
+        //Дана целочисленная последовательность.Извлечь из нее все положительные числа, сохранив их исходный порядок следования.
         static public void Task()
         {
             Console.WriteLine("Task 16");
