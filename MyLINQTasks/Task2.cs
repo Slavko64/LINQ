@@ -16,7 +16,7 @@ namespace MyLINQTasks
             Console.WriteLine("Task 2");
             int n = 3;
             var A = Program.GetEnumerableInt(100);
-            Program.Put(A.FirstOrDefault(x => x.ToString()[x.ToString().Length - 1] == n.ToString()[0]));
+            Program.Put(A.FirstOrDefault(x => x.ToString().Last() == n.ToString().First()));
         }
     }
 }

@@ -14,7 +14,7 @@ namespace MyLINQTasks
         {
             Console.WriteLine("Task 12");
             var A = Program.GetEnumerableInt(10);
-            int product = A[0]%10;
+            int product = A.First() % 10;
             A.Aggregate((x, y) => product *= y%10);
             Program.Put(Math.Abs(product));
         }

@@ -25,8 +25,8 @@ namespace MyLINQTasks
         {
             Console.WriteLine("Task 11");
             var A = GetEnumerableString(10);
-            string str =  "" + A[0][0];
-            str = A.Aggregate((x, y) => str +=  "" + y[0] );
+            string str =  "" + A.First().First();
+            str = A.Aggregate((x, y) => str +=  "" + y.First());
             Program.Put(str);
         }
     }

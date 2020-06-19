@@ -20,7 +20,7 @@ namespace MyLINQTasks
             var A = Program.GetEnumerableString(10);
             try
             {
-                Program.Put(A.SingleOrDefault(x => x[x.Length-1] == C.ToString()[0]));
+                Program.Put(A.SingleOrDefault(x => x.Last() == C.ToString().First()));
             }
             catch(Exception e)
             {
