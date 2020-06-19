@@ -14,7 +14,7 @@ namespace MyLINQTasks
         //изменив порядок следования извлеченных строк на обратный.
         static public void Task()
         {
-            Console.WriteLine("Task 24");
+            Console.WriteLine("Task 25");
             int K1 = 4, K2 = 6;
             var A = Program.GetEnumerableInt(10);
             var B = A.Skip(K1).Take(K2-K1).Where(x => x>0).Sum(y=>y);

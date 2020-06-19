@@ -33,31 +33,33 @@ namespace MyLINQTasks
         }
         static void Main(string[] args)
         {
-            Task1.Task();
-            Task2.Task();
-            Task3.Task();
-            Task4.Task();
-            Task5.Task();
-            Task6.Task();
-            Task7.Task();
-            Task8.Task();
-            Task9.Task();
-            Task10.Task();
-            Task11.Task();
-            Task12.Task();
-            Task13.Task();
-            Task14.Task();
-            Task15.Task();
-            Task16.Task();
-            Task17.Task();
-            Task18.Task();
-            Task19.Task();
-            Task20.Task();
-            Task21.Task();
-            Task22.Task();
-            Task23.Task();
-            Task24.Task();
-            Task25.Task();
+            //Task1.Task();
+            //Task2.Task();
+            //Task3.Task();
+            //Task4.Task();
+            //Task5.Task();
+            //Task6.Task();
+            //Task7.Task();
+            //Task8.Task();
+            //Task9.Task();
+            //Task10.Task();
+            //Task11.Task();
+            //Task12.Task();
+            //Task13.Task();
+            //Task14.Task();
+            //Task15.Task();
+            //Task16.Task();
+            //Task17.Task();
+            //Task18.Task();
+            //Task19.Task();
+            //Task20.Task();
+            //Task21.Task();
+            //Task22.Task();
+            //Task23.Task();
+            //Task24.Task();
+            //Task25.Task();
+            Task26.Task();
+            Task27.Task();
             Console.ReadLine();
         }
     }
