@@ -16,6 +16,7 @@ namespace MyLINQTasks
             int D = 8;
             var A = Program.GetEnumerableInt(100);
             var B = A.Where(x => x.ToString().Last() == D.ToString().First()).Reverse().Distinct().Reverse().ToList();
+
         }
     }
 }

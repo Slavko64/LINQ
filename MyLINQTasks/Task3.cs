@@ -16,7 +16,7 @@ namespace MyLINQTasks
             var A = Program.GetEnumerableString(100);
             try
             {
-                Program.Put(A.Last(x => x.First() == L.ToString().First()));
+                Program.Put(A.Last(x => x[0] == L.ToString()[0]));
             }
             catch
             {
