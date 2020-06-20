@@ -27,6 +27,22 @@ namespace MyLINQTasks
             }
             return Arr;
         }
+        static public string[] GetEnumerableOnlyLetters(int n)
+        {
+            char[] Alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".ToCharArray();
+            Random rand = new Random();
+            string[] Arr = new string[n];
+            int length;
+            for (int i = 0; i < n; i++)
+            {
+                length = rand.Next(0, 6);
+                for (int j = 0; j < length; j++)
+                {
+                     Arr[i] += Alphabet[rand.Next(0, 26)].ToString();
+                }
+            }
+            return Arr;
+        }
         static public string[] GetEnumerableString(int n)
         {
             Random rand = new Random();
@@ -88,6 +104,8 @@ namespace MyLINQTasks
             Task34.Task();
             Task35.Task();
             Task36.Task();
+            Task37.Task();
+            Task38.Task();
             Console.ReadLine();
         }
     }
