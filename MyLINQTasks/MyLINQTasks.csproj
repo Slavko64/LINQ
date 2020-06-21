@@ -44,7 +44,7 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Task1.cs" />
+    <Compile Include="Task01.cs" />
     <Compile Include="Task10.cs" />
     <Compile Include="Task11.cs" />
     <Compile Include="Task12.cs" />
@@ -55,7 +55,7 @@
     <Compile Include="Task17.cs" />
     <Compile Include="Task18.cs" />
     <Compile Include="Task19.cs" />
-    <Compile Include="Task2.cs" />
+    <Compile Include="Task02.cs" />
     <Compile Include="Task20.cs" />
     <Compile Include="Task21.cs" />
     <Compile Include="Task22.cs" />
@@ -66,7 +66,7 @@
     <Compile Include="Task27.cs" />
     <Compile Include="Task28.cs" />
     <Compile Include="Task29.cs" />
-    <Compile Include="Task3.cs" />
+    <Compile Include="Task03.cs" />
     <Compile Include="Task30.cs" />
     <Compile Include="Task31.cs" />
     <Compile Include="Task32.cs" />
@@ -76,12 +76,19 @@
     <Compile Include="Task36.cs" />
     <Compile Include="Task37.cs" />
     <Compile Include="Task38.cs" />
-    <Compile Include="Task4.cs" />
-    <Compile Include="Task5.cs" />
-    <Compile Include="Task6.cs" />
-    <Compile Include="Task7.cs" />
-    <Compile Include="Task8.cs" />
-    <Compile Include="Task9.cs" />
+    <Compile Include="Task39.cs" />
+    <Compile Include="Task04.cs" />
+    <Compile Include="Task05.cs" />
+    <Compile Include="Task06.cs" />
+    <Compile Include="Task07.cs" />
+    <Compile Include="Task08.cs" />
+    <Compile Include="Task09.cs" />
+    <Compile Include="Task40.cs" />
+    <Compile Include="Task41.cs" />
+    <Compile Include="Task42.cs" />
+    <Compile Include="Task43.cs" />
+    <Compile Include="Task44.cs" />
+    <Compile Include="Task45.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
