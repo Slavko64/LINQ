@@ -68,7 +68,7 @@ namespace MyLINQTasks
         }
         static void Main(string[] args)
         {
-            //Task1.Task();
+            //Task01.Task();
             //Task2.Task();
             //Task3.Task();
             //Task4.Task();

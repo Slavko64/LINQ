@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MyLINQTasks
 {
-    class Task1 
+    class Task01 
     {
         //Дана целочисленная последовательность, содержащая как положительные, так и отрицательные числа.Вывести ее первый положительный элемент и последний отрицательный элемент. 
         static public void Task()
