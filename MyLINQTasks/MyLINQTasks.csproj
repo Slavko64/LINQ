@@ -89,6 +89,11 @@
     <Compile Include="Task43.cs" />
     <Compile Include="Task44.cs" />
     <Compile Include="Task45.cs" />
+    <Compile Include="Task46.cs" />
+    <Compile Include="Task47.cs" />
+    <Compile Include="Task48.cs" />
+    <Compile Include="Task49.cs" />
+    <Compile Include="Task50.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

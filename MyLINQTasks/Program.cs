@@ -8,6 +8,24 @@ namespace MyLINQTasks
 {
     class Program
     {
+        static public string[] GetEnumerableStringWithLetters(int n, Random rand)
+        {
+            char[] Alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".ToCharArray();
+            string[] Arr = new string[n];
+            int length;
+            for (int i = 0; i < n; i++)
+            {
+                length = rand.Next(1, 6);
+                for (int j = 0; j < length; j++)
+                {
+                    if (rand.Next(1, 3) == 1)
+                        Arr[i] += Alphabet[rand.Next(0, 26)].ToString();
+                    else
+                        Arr[i] += rand.Next(0, 10).ToString();
+                }
+            }
+            return Arr;
+        }
         static public string[] GetEnumerableStringWithLetters(int n)
         {
             char[] Alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".ToCharArray();
@@ -113,6 +131,11 @@ namespace MyLINQTasks
             Task43.Task();
             Task44.Task();
             Task45.Task();
+            Task46.Task();
+            Task47.Task();
+            Task48.Task();
+            Task49.Task();
+            Task50.Task();
             Console.ReadLine();
         }
     }
