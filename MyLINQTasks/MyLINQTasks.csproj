@@ -42,6 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Homework1.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Task01.cs" />
@@ -94,6 +95,8 @@
     <Compile Include="Task48.cs" />
     <Compile Include="Task49.cs" />
     <Compile Include="Task50.cs" />
+    <Compile Include="Task51.cs" />
+    <Compile Include="Task52.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
